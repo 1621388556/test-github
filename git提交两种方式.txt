@@ -1,0 +1,13 @@
+git init   //在文件夹中产生./git文件，可以使用git来管理
+git add .  //把发生变化的所有文件上传到缓存区，
+git commit -m "提交描述符"  //
+git remote add origin https://github.com/1621388556/test-github.git  // 将git库上要提交到的地址和当前的联系起来
+git pull origin main --allow-unrelated-histories
+git push -u origin main
+
+右击git bash here
+git clone https://github.com/1621388556/test-github.git  //把git上要提交到库上的地址拷贝下来，并和本地产生关联
+git add xxxx
+git commit -m "提交描述符"  //
+git pull origin main --allow-unrelated-histories
+git push -u origin main
